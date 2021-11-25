@@ -8,7 +8,6 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * Exercice 02 - Map
  */
@@ -34,6 +33,8 @@ public class Lambda_02_Test {
     public void test_map_person_to_account() throws Exception {
 
         List<Person> personList = Data.buildPersonList(100);
+
+
 
         // TODO transformer la liste de personnes en liste de comptes
         // TODO tous les objets comptes ont un solde à 100 par défaut
